@@ -25,12 +25,12 @@ class Car:
 
 
 class IncorrectVinNumber(Exception):
-    def __init__(self, message):
+    def __init__(self, message='Что-то не так с Vin-номером'):
         self.message = message
 
 
 class IncorrectCarNumbers(Exception):
-    def __init__(self, message):
+    def __init__(self, message='Что-то не так с номерами'):
         self.message = message
 
 
