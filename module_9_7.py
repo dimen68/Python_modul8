@@ -13,7 +13,7 @@ def is_prime(func):
             print("Составное: ", end="")
         return res_  # возвращаем результат проверки (простое или составное)
 
-    return wrapper  # возвращаем функцию
+    return wrapper  # возвращаем функцию для расчетов
 
 
 @is_prime
